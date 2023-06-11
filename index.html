@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,800&amp;display=swap">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+<script class="page-counter" src="https://cdn.counter.dev/script.js" data-id="2a5b0454-daf3-49f7-9587-e026f3747a11" data-utcoffset="7"></script>
 </head>
 
 <body style="font-family: 'Work Sans', sans-serif;">
@@ -30,24 +30,24 @@
                 <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/news">News</a></li>
                 <li class="nav-item d-none d-lg-block">
                     <div class="nav-item dropdown nav-link"><a class="dropdown-toggle text-decoration-none text-black-50" aria-expanded="false" data-bs-toggle="dropdown" href="#">Agenda&nbsp;</a>
-                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item text-end" href="/agenda">Schedule</a><a class="dropdown-item text-end" href="/sponsorship">Sponsorship</a></div>
+                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item text-end" href="/schedule">Schedule</a><a class="dropdown-item text-end" href="/sponsorship">Sponsorship</a></div>
                     </div>
                 </li>
                 <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#contact">Contact</a></li>
-                <li class="nav-item d-none d-lg-block" id="ticket-btn"><a class="nav-link py-2 px-3" style="background: var(--libre-main);color: var(--libre-light);" data-bs-target="#underdev" data-bs-toggle="modal">Get Ticket</a></li>
+                <li class="nav-item d-none d-lg-block" id="ticket-btn"><a class="nav-link py-2 px-3" style="background: var(--libre-main);color: var(--libre-light);" data-bs-target="#notopen" data-bs-toggle="modal">Get Ticket</a></li>
                 <li class="nav-item d-block d-lg-none"><a class="nav-link open-menu" href="#$" onclick="openMenu()"><img src="assets/img/icons/open-menu.svg" alt="Menu" width="37px" height="23px" style="width: 32px;"></a></li>
             </ul>
             <div class="overlay ml-auto mr-auto d-flex align-items-center justify-content-center" onclick="closeMenu()">
                 <div class="text-center overlay-menu p-5 close-menu">
                     <h3 class="text-center text-light">Menu</h3>
                     <ul class="mt-5">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#">Schedule</a></li>
-                        <li><a href="#">Schedule</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/schedule">Schedule</a></li>
+                        <li><a href="/sponsorship">Sponsorship</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a class="py-2 px-3" style="background: var(--libre-main);color: var(--libre-light);" data-bs-target="#underdev" data-bs-toggle="modal">Get Ticket</a></li>
+                        <li><a class="py-2 px-3" style="background: var(--libre-main);color: var(--libre-light);" data-bs-target="#notopen" data-bs-toggle="modal">Get Ticket</a></li>
                         <li onclick="closeMenu()"><img class="close-menu" src="assets/img/icons/close.svg" alt="close" width="24px" height="24px"></li>
                     </ul>
                 </div>
@@ -118,7 +118,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center"><a class="btn main-button rounded-0" role="button" href="news">More Details</a></div>
+            <div class="text-center"><a class="btn main-button rounded-0" role="button" href="/about">More Details</a></div>
         </div>
     </section>
     <section data-aos="slide-up" id="speaker" class="pt-5">
@@ -175,7 +175,7 @@
                     <h2 class="fw-semibold">Be a speaker at LOUCA23?</h2>
                     <p>Get your opportunity to be one of the speacers at the LOUCA23. Send your interesting topic proposal before the July, 30 2023.</p>
                 </div>
-                <div class="col text-center text-lg-end align-self-center"><a class="btn main-button mb-3 rounded-0" role="button" data-bs-target="#underdev" data-bs-toggle="modal">Call for Paper Info</a></div>
+                <div class="col text-center text-lg-end align-self-center"><a class="btn main-button mb-3 rounded-0" role="button" href="/post/?title=call-for-paper">Call for Paper Info</a></div>
             </div>
         </div>
     </section>
@@ -186,48 +186,12 @@
             </div>
             <div>
                 <div class="row mb-5" id="news-wrapper">
-                    <div class="col-md-6 col-lg-4 col-xl-4 mb-3" data-bss-hover-animate="pulse">
-                        <div class="bg-white p-3 card-news"><a href="#">
-                                <div class="post-thumbnail" style="height: 150px;background: url(&quot;assets/img/opengraph_LOUCA23.png&quot;) top / cover no-repeat;"></div>
-                            </a>
-                            <div class="d-flex align-items-center pt-2 mb-4 post-date">
-                                <div class="one"><span class="day">07</span></div>
-                                <div class="two"><span class="yr">2019</span><span class="mos">January</span></div>
-                            </div><a href="#">
-                                <h4 class="fw-semibold">Call for Paper Now Open!</h4>
-                            </a>
-                            <p>Dictum a erat, habitant at metus ultrices dictumst torquent enim quisque.&nbsp;</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-4 mb-3" data-bss-hover-animate="pulse">
-                        <div class="bg-white p-3 card-news"><a href="#">
-                                <div class="post-thumbnail" style="height: 150px;background: url(&quot;assets/img/opengraph_LOUCA23.png&quot;) top / cover no-repeat;"></div>
-                            </a>
-                            <div class="d-flex align-items-center pt-2 mb-4 post-date">
-                                <div class="one"><span class="day">07</span></div>
-                                <div class="two"><span class="yr">2019</span><span class="mos">January</span></div>
-                            </div><a href="#">
-                                <h4 class="fw-semibold">Call for Paper Now Open!</h4>
-                            </a>
-                            <p>Dictum a erat, habitant at metus ultrices dictumst torquent enim quisque.&nbsp;</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-4 mb-3" data-bss-hover-animate="pulse">
-                        <div class="bg-white p-3 card-news"><a href="#">
-                                <div class="post-thumbnail" style="height: 150px;background: url(&quot;assets/img/opengraph_LOUCA23.png&quot;) top / cover no-repeat;"></div>
-                            </a>
-                            <div class="d-flex align-items-center pt-2 mb-4 post-date">
-                                <div class="one"><span class="day">07</span></div>
-                                <div class="two"><span class="yr">2019</span><span class="mos">January</span></div>
-                            </div><a href="#">
-                                <h4 class="fw-semibold">Call for Paper Now Open!</h4>
-                            </a>
-                            <p>Dictum a erat, habitant at metus ultrices dictumst torquent enim quisque.&nbsp;</p>
-                        </div>
+                    <div class="col text-center"><span class="spinner-border text-warning" role="status"></span>
+                        <h3 class="text-center">Loading data ...</h3>
                     </div>
                 </div>
             </div>
-            <div class="text-center"><a class="btn main-button rounded-0" role="button" data-bs-target="#underdev" data-bs-toggle="modal">News Archive</a></div>
+            <div class="text-center"><a class="btn main-button rounded-0" role="button" href="/news">News Archive</a></div>
         </div>
     </section>
     <section id="sponsors" style="padding-bottom: 10vh;background: #f3f8ff;"></section>
@@ -240,7 +204,7 @@
                         <p>LOUCA is a collaborative activity that anyone can contribute to, including you, your company, institution or community.</p>
                     </div>
                 </div>
-                <div class="col text-center text-lg-end align-self-center"><a class="btn main-button-solid border-white bg-white rounded-0" role="button" data-bs-target="#underdev" data-bs-toggle="modal">Get Sponsorship Proposal</a></div>
+                <div class="col text-center text-lg-end align-self-center"><a class="btn main-button-solid border-white bg-white rounded-0" role="button" href="/sponsorship">Get Sponsorship Details</a></div>
             </div>
         </div>
     </section>
@@ -326,6 +290,19 @@
                 </div>
                 <div class="modal-body">
                     <p>The page or link you are looking for seems to be still under development. Yes, our developers are still working to make this event perfect. Sorry for the inconvenience, please try again later.</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="notopen">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title fw-semibold">Sorry :"(</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ticket Registration Not Yet Opened. We will announce it soon later.</p>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
             </div>

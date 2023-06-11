@@ -4,13 +4,13 @@
         <loc>/about/</loc>
     </url>
     <url>
-        <loc>/agenda/</loc>
-    </url>
-    <url>
         <loc>/news/</loc>
     </url>
     <url>
         <loc>/post/</loc>
+    </url>
+    <url>
+        <loc>/schedule/</loc>
     </url>
     <url>
         <loc>/sponsorship/</loc>
