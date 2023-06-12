@@ -22,31 +22,31 @@
 
 <body style="font-family: 'Work Sans', sans-serif;background: var(--libre-light);">
     <nav class="navbar navbar-light navbar-expand-lg position-fixed w-100 top-0 main-navigation" id="navbar" style="font-family: 'Work Sans', sans-serif;max-height: 10vh;">
-        <div class="container"><a class="navbar-brand" href="/"><img class="img-fluid p-3" src="../assets/img/LibreOffice-Conf_logo.svg" alt="SCP Logo" style="width: 90px;margin-top: 0px;"><img class="img-fluid p-3" src="../assets/img/UbuCon_Logo.svg" alt="SCP Logo" style="width: 90px;margin-left: -28px;margin-top: 10px;"></a>
+        <div class="container"><a class="navbar-brand" href="/"><img class="img-fluid p-3" src="../assets/img/LibreOffice-Conf_logo.svg" alt="LibreOffice Asia Conf Logo" style="width: 90px;margin-top: 0px;"><img class="img-fluid p-3" src="../assets/img/UbuCon_Logo.svg" alt="UbuCon Asia Logo" style="width: 90px;margin-left: -28px;margin-top: 10px;"></a>
             <ul class="navbar-nav">
-                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/about">About</a></li>
-                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/news">News</a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/" aria-label="home">Home</a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/about" aria-label="about">About</a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/news" aria-label="news">News</a></li>
                 <li class="nav-item d-none d-lg-block">
-                    <div class="nav-item dropdown nav-link"><a class="dropdown-toggle text-decoration-none text-black-50" aria-expanded="false" data-bs-toggle="dropdown" href="#">Agenda&nbsp;</a>
+                    <div class="nav-item dropdown nav-link"><a class="dropdown-toggle text-decoration-none text-black-50" aria-expanded="false" data-bs-toggle="dropdown" href="#" aria-label="agenda">Agenda&nbsp;</a>
                         <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item text-end" href="/schedule">Schedule</a><a class="dropdown-item text-end" href="/sponsorship">Sponsorship</a></div>
                     </div>
                 </li>
-                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#contact">Contact</a></li>
-                <li class="nav-item d-none d-lg-block" id="ticket-btn"><a class="nav-link py-2 px-3" style="background: var(--libre-main);color: var(--libre-light);" data-bs-target="#notopen" data-bs-toggle="modal">Get Ticket</a></li>
-                <li class="nav-item d-block d-lg-none"><a class="nav-link open-menu" href="#$" onclick="openMenu()"><img src="../assets/img/icons/open-menu.svg" alt="Menu" width="37px" height="23px" style="width: 32px;"></a></li>
+                <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#contact" aria-label="contact">Contact</a></li>
+                <li class="nav-item d-none d-lg-block" id="ticket-btn"><a class="nav-link py-2 px-3" data-bs-target="#notopen" data-bs-toggle="modal" aria-label="ticket">Get Ticket</a></li>
+                <li class="nav-item d-block d-lg-none"><a class="nav-link open-menu" href="#$" onclick="openMenu()" aria-label="overlay menu"><img src="../assets/img/icons/open-menu.svg" alt="Menu" width="37px" height="23px" style="width: 32px;"></a></li>
             </ul>
             <div class="overlay ml-auto mr-auto d-flex align-items-center justify-content-center" onclick="closeMenu()">
                 <div class="text-center overlay-menu p-5 close-menu">
                     <h3 class="text-center text-light">Menu</h3>
                     <ul class="mt-5">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/news">News</a></li>
-                        <li><a href="/schedule">Schedule</a></li>
-                        <li><a href="/sponsorship">Sponsorship</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a class="py-2 px-3" style="background: var(--libre-main);color: var(--libre-light);" data-bs-target="#notopen" data-bs-toggle="modal">Get Ticket</a></li>
+                        <li><a href="/" aria-label="menu">Home</a></li>
+                        <li><a href="/about" aria-label="about">About</a></li>
+                        <li><a href="/news" aria-label="news">News</a></li>
+                        <li><a href="/schedule" aria-label="schedule">Schedule</a></li>
+                        <li><a href="/sponsorship" aria-label="sponsorhip">Sponsorship</a></li>
+                        <li><a href="#contact" aria-label="contact">Contact</a></li>
+                        <li><a class="py-2 px-3" style="background: var(--libre-main);color: var(--libre-light);" data-bs-target="#notopen" data-bs-toggle="modal" aria-label="ticket">Get Ticket</a></li>
                         <li onclick="closeMenu()"><img class="close-menu" src="../assets/img/icons/close.svg" alt="close" width="24px" height="24px"></li>
                     </ul>
                 </div>
@@ -80,7 +80,7 @@
             <div>
                 <h3 class="ubuntu-dark">Venue Details</h3>
                 <div class="div-accent" style="height: 15px;width: 109px;"></div>
-                <p class="my-4"><iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCP4xCZYpZ2CJmRIUST0RPoEChj2oimZ9c&amp;q=FKIP+UNS+Pabelan+Surakarta&amp;zoom=15" class="mb-4" width="100%" height="400"></iframe>This year, Indonesia has the opportunity to host the LibreOffice Conf. Asia and UbuCon Asia. LOUCA23 is planned to be held at the FKIP Hall (Building F) UNS, Surakarta, Indonesia. In collaboration with Universitas Sebelas Maret Surakarta (UNS) as the venue provider.<br><br>Universitas Sebelas Maret (UNS) is a state university established on March 11, 1976 in the city of Surakarta. Sebelas Maret University has a vision, mission, and goals that are used as guidelines in organizing educational activities, namely "To become a center for the development of science, technology, and art that excels at the international level based on the noble values of national culture."<br><br>The implementation of LOUCA23 activities is in collaboration with the Informatics and Computer Engineering Education Study Program (PTIK) and the Informatics Engineering Education Student Association (Mikroptik) UNS. <br><br><br>The following are photos of the LOUCA23 (LibreOffice Conf. Asia x UbuCon Asia) 2023 event location which will be held at Universitas Sebelas Maret.</p>
+                <p class="my-4"><iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCP4xCZYpZ2CJmRIUST0RPoEChj2oimZ9c&amp;q=Gedung+F+FKIP+UNS+%2F+Dekanat+FKIP+UNS&amp;zoom=15" class="mb-4" width="100%" height="400"></iframe>This year, Indonesia has the opportunity to host the LibreOffice Conf. Asia and UbuCon Asia. LOUCA23 is planned to be held at the FKIP Hall (Building F) UNS, Surakarta, Indonesia. In collaboration with Universitas Sebelas Maret Surakarta (UNS) as the venue provider.<br><br>Universitas Sebelas Maret (UNS) is a state university established on March 11, 1976 in the city of Surakarta. Sebelas Maret University has a vision, mission, and goals that are used as guidelines in organizing educational activities, namely "To become a center for the development of science, technology, and art that excels at the international level based on the noble values of national culture."<br><br>The implementation of LOUCA23 activities is in collaboration with the Informatics and Computer Engineering Education Study Program (PTIK) and the Informatics Engineering Education Student Association (Mikroptik) UNS. <br><br><br>The following are photos of the LOUCA23 (LibreOffice Conf. Asia x UbuCon Asia) 2023 event location which will be held at Universitas Sebelas Maret.</p>
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-lg-7"><img class="img-fluid mb-2" src="../assets/img/about/LOUCA_UNS_GATE.png" style="min-height: 200px;width: auto;"></div>
                     <div class="col"><img class="img-fluid mb-2" src="../assets/img/about/LOUCA_FKIP_Building.png" style="min-height: 200px;width: auto;"><img class="img-fluid mb-2" src="../assets/img/about/LOUCA_FKIP_MainHall.png" style="min-height: 200px;width: auto;"></div>
