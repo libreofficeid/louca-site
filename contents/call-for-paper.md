@@ -47,4 +47,4 @@ Here is some tracks that available to choose for your best topics!
 - The organizers only provide general tools such as LCD projectors and internet connection. The speakers must provide their own specific needs for the presentations.
 - The speakers can submit more than one proposal. Don't hesitate to share your ideas!
 
-Submit your proposal before July, 31 to: [LOUCA23 CFP Submission Page](https://cfp.louca.id) and Thanks a lot for your participation!
+Submit your proposal before July, 31 to: [LOUCA23 CFP Submission Page](https://cfp.louca.id/louca-2023) and Thanks a lot for your participation!
