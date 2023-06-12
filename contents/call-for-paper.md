@@ -3,7 +3,7 @@
 LibreOffice Conf Asia x UbuCon Asia 2023 (hereafter LOUCA23) is an event that brings together Linux and Open Source Software (OSS) activists, contributors, users, communities, and businesses in the Asian region, especially those related to and focused on LibreOffice and Ubuntu projects. This year, LOUCA2023 will be held on 7-8 October 2023 at Universitas Sebelas Maret (UNS), Surakarta, Indonesia!
 
 
-![CFP Poster](/assets/img/news/cfp-poster.png)
+![CFP Poster](/assets/img/news/cfp-poster.webp)
 
 
 ### We offer two types of presentations: 
