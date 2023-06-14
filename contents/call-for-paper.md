@@ -28,17 +28,15 @@ Here is some tracks that available to choose for your best topics!
 - LibreOffice Interoperability & Open Document Format
 
 #### Ubuntu Track
-- Ubuntu Desktop
-- Ubuntu Cloud and Infrastructure
-- Ubuntu Localizations, Internationalizations, and Accessibility
-- Ubuntu IoT, Embedded, Robotics, Appliances
-- Ubuntu Packaging
-- Ubuntu Documentations, QA and Bug triage
-- Ubuntu Security, Compliance and Kernel
-- Data and AI: Ubuntu for Data Science, Data Engineering, AI and ML workloads
-- Ubuntu Content and Design
-- Ubuntu Community, Diversity, Local Outreach and Social Context
-- Ubuntu Windows Subsystem for Linux(WSL)
+- Desktop and WSL
+- Cloud and Infrastructure
+- Localizations and Accessibility
+- Documentations and QA
+- Security and Compliance
+- Data, AI and ML
+- Content and Design
+- Community
+- Devices and IoT
 
 ### What should you consider before submitting proposal?
 - This is LibreOffice and Ubuntu events. Both related topics will get much higher priority.
