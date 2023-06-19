@@ -15,12 +15,15 @@
             "q": "Does the committee provide lodging for the participants??",
             "a": "We do not provide lodging for the participants. However, local volunteers will provide several decent lodging recommendation options for you to choose later."
         }
+        
     ],
-    "sponsorship": [
+    "Call For Paper": [
         {
             "id": "1",
-            "q": "Sample Question 1 Here?",
-            "a": "Sample answer 1 here."
+            "q": "Will there be accommodation, both travel and lodging expenses, for the speaker?",
+            "a": "1. If you are already a TDF Member, you can submit a reimbursement to TDF (The Document Foundation)"
+            "a": "2. If you already have an Ubuntu membership, you can also submit a reimbursement to the Ubuntu Community"
+            "a": "3. If not from both, if the sponsors are sufficient, then there will be a reimbursement from the committee, but not 100%"
         },
         {
             "id": "2",
