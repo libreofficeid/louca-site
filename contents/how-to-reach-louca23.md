@@ -1,11 +1,10 @@
- # How To Reach LOUCA23 Venue
-
+ # Quick Guide: How To Reach LOUCA23 Venue
 
 LOUCA23 registration is now open. Some of you may have started hunting for travel tickets to Surakarta, the city where LibreOffice Conf. Asia and UbuCon Asia 2023 will be held. This post will give you a brief overview of some of the routes you can take to get to Surakarta.
 
 ### A. Flights to Indonesia
 
-First of all, if you are from outside Indonesia, there are at least 3 international airports that you can choose to enter Indonesia;
+To begin with, if you are not from Indonesia, there are at least three international airports from which to enter the country.
 
 - Soekarno-Hatta Airport / CGK (Jakarta)
 - Juanda Airport / SUB (Surabaya, East Java)
@@ -22,8 +21,8 @@ Here are several routes to these three airports that you might make reference to
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>Dubai to CGK</th>
-                                <th>Japan to CGK</th>
+                                <th>DXB to CGK</th>
+                                <th>NRT to CGK</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -61,8 +60,8 @@ Here are several routes to these three airports that you might make reference to
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>Dubai - SUB</th>
-                                <th>Japan to CGK</th>
+                                <th>DBX to SUB</th>
+                                <th>NRT to CGK</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -92,9 +91,9 @@ Here are several routes to these three airports that you might make reference to
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>Dubai to CGK</th>
-                                <th>Japan to CGK</th>
-                                <th>Korea to DPS</th>
+                                <th>DXB to DPS</th>
+                                <th>NRT to DPS</th>
+                                <th>ICN to DPS</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -129,30 +128,28 @@ Here are several routes to these three airports that you might make reference to
 
 ### B. Towards Surakarta
 
-After arriving at each of the airports above, then you can choose two transportation options to go to the city of Surakarta. First option with local flights; and second by using the train.
+After arriving at one of the airports listed above, you have two alternatives for getting to the city of Surakarta. The first choice is to travel by plane, and the second is to take the train.
 
-For local flight, please arrange your flight to Adi Soemarmo International Airport. This flight option is certainly the fastest option to arrive in Surakarta. 
+If you prefer to travel by plane, please book a flight to Adi Soemarmo International Airport. This is without a doubt the quickest way to arrive in Surakarta.
 
-If you want to relax a bit, you can choose to travel by train. This train option only applies if you land at Soekarno-Hatta Jakarta (CGK) or Juanda Surabaya (SUB). 
+However, if you are not in a hurry, you can take the train. This train option is only available if you arrive at Soekarno-Hatta Airport (CGK) or Juanda Surabaya Airport (SUB).
 
 #### Train Station Options from CGK
 
-There are 2 Station Options that you can choose to go to Surakarta from Jakarta by train; Gambir Station (recommended) and Pasar Senen Station.
+There are two train station options from Jakarta to Surakarta: Gambir Station (recommended) and Pasar Senen Station.
 
-To go to one of these stations, please buy an Airport Train ticket to Gambir Station. After arriving, the easiest option is to use a station taxi or online transportation to Gambir Station or Pasar Senen. Your destination station should be Jebres Solo station.
+To go to one of these stations, take the Airport Train to Gambir Station. The most convenient way to go to Gambir Station or Pasar Senen after arriving is to take a station taxi or book online transportation. Your destination station should be Jebres Solo.
 
 #### Train Station Options from SUB
 
-There are 2 Station Options that you can choose to go to Surakarta from Surabaya by train; Gubeng Station and Pasar Turi Station.
-
-You can take a Taxi or order transportation online to get to one of these stations. Your destination station should be Balapan Solo station.
+There are two train station options from Surabaya to Surakarta: Gubeng Station and Pasar Turi Station. To go to one of these stations, you can take a taxi or order transportation online. Your destination station should be Balapan Solo.
 
 
 ### C. Welcome to Surakarta
 
-You have entered the Surakarta area. It's been a long journey. Some of you have now arrived at the airport, Jebres station and Balapan station, if you follow the guidelines we have explained above. Then, how can I reach the LOUCA23 venue?
+You have arrived in Surakarta. It's been a long road. If you followed the instructions we provided above, you should have arrived at the airport, Jebres station, and Balapan station by now. Then, how do I get to the LOUCA23 venue?
 
-The easiest way to get to the Venue is by taking an airport/station taxi or ordering transportation online. Tell the following address to the driver who will take you;
+The most convenient way to get to the Venue is by taking an airport / station taxi or ordering transportation online.  Tell the driver the following address:
 
 ```
 ------------------------------------------------------------------------
@@ -164,7 +161,7 @@ The easiest way to get to the Venue is by taking an airport/station taxi or orde
 
 Some notes that might be useful to you;
 - We recommend arriving in Indonesia on Thursday, 5 October 2023
-- To order transportation online, it will be very helpful if you have an Indonesian telephone number (Indonesian SIM Card)
+- To order transportation online, it will be easier if you have an Indonesian phone number (Indonesian SIM Card), which can be purchased on around arrival airport.
 - Don't hesitate to contact the organizing committee if you have arrived in Indonesia and need fast assistance.
 
 
