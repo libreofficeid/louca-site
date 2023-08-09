@@ -21,7 +21,6 @@
     <link rel="manifest" href="../manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,800&amp;display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="../assets/css/styles.min.css">
 <script class="page-counter" src="https://cdn.counter.dev/script.js" data-id="2a5b0454-daf3-49f7-9587-e026f3747a11" data-utcoffset="7"></script>
 </head>
@@ -61,25 +60,34 @@
         </div>
     </nav>
     <section></section>
-    <section class="pt-5" style="background: linear-gradient(166deg, #fffae2, white 34%);">
+    <section style="background: linear-gradient(166deg, #fffae2, white 34%);padding-top: 85px;">
         <div class="container-fluid mt-5 py-4 text-white text-center" style="background: var(--bs-gray-800);">
-            <h1 class="mb-0" style="font-size: 3em;"><strong>&lt;/News&gt;</strong></h1>
+            <h1 class="fs-3 mb-0 fw-semibold" id="sessionTitle">...</h1>
+            <p><span id="sessionDay">...</span>&nbsp;- <span id="sessionTime">...</span>&nbsp;</p><span class="badge bg-danger mx-1 fw-semibold rounded-0" id="sessionType"></span><span class="badge bg-danger mx-1 fw-semibold rounded-0" id="sessionRoom"></span>
         </div>
         <div class="container pt-5 my-3 p-3 p-lg-5 bg-white" style="min-height: 100vh;">
-            <div class="post-wrapper"><span class="spinner-border text-warning d-block mx-auto mb-4" role="status"></span>
-                <h3 class="text-center">Loading Content ...</h3>
-            </div>
-            <div class="post-date"></div>
-            <div class="mt-5">
-                <h4 id="more-news" class="fw-semibold mb-3">More News</h4>
-                <div class="swiper news-list">
-                    <div id="news-wrapper" class="swiper-wrapper">
-                        <div class="col text-center"><span class="spinner-border text-warning" role="status"></span>
-                            <h3 class="text-center">Loading data ...</h3>
+            <div>
+                <div class="sessionTalent">
+                    <div class="row mb-3">
+                        <div class="col col-2">
+                            <div class="d-lg-flex justify-content-lg-center align-items-lg-center speaker-detail-thumb" id="sessionPhoto" style="background: url(&quot;../assets/img/avatar.svg&quot;) top / cover no-repeat;"></div>
+                        </div>
+                        <div class="col col-2 d-none" id="coSpeaker">
+                            <div class="d-lg-flex justify-content-lg-center align-items-lg-center speaker-detail-thumb" id="sessionPhotoCo" style="background: url(&quot;../assets/img/avatar.svg&quot;) top / cover no-repeat;"></div>
+                        </div>
+                        <div class="col align-self-center">
+                            <h2 class="fs-5 fw-semibold" id="sessionSpeakers">...</h2><span class="badge rounded-0 me-1 fw-semibold" id="sessionGroup"><span style="font-weight: normal !important;">LibreOffice</span></span><span class="badge bg-secondary mx-1 rounded-0 me-1 fw-semibold" id="sessionLang"></span>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
+                <div class="mt-4">
+                    <h2 class="fs-3">Session Details</h2>
+                    <p id="sessionDesc">...</p>
+                </div>
+                <div class="d-flex gap-3"><a class="btn btn-sm btn-secondary rounded-0 btn-" role="button" href="/schedule"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="me-2 mb-1">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M512 256C512 273.7 497.7 288 480 288H160.1l0 72c0 9.547-5.66 18.19-14.42 22c-8.754 3.812-18.95 2.077-25.94-4.407l-112.1-104c-10.24-9.5-10.24-25.69 0-35.19l112.1-104c6.992-6.484 17.18-8.218 25.94-4.406C154.4 133.8 160.1 142.5 160.1 151.1L160.1 224H480C497.7 224 512 238.3 512 256z"></path>
+                        </svg>All Schedule</a></div>
             </div>
         </div>
     </section>
@@ -172,11 +180,10 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/remarkable/1.7.1/remarkable.min.js"></script>
     <script src="../assets/js/script.min.js"></script>
     <script src="../assets/js/smart-forms.min.min.js"></script>
-    <script src="../assets/js/contents.min.js"></script>
+    <script src="../assets/js/sessions.min.js"></script>
 </body>
 
 </html>
