@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>LOUCA23 - News</title>
+    <title>LOUCA23 - Donation Report</title>
     <meta name="theme-color" content="#f0fff0">
     <meta name="twitter:description" content="Official website of LibreOffice Conf Asia &amp; UbuCon Asia 7-8 October 2023 Surakarta, Indonesia.">
     <meta name="description" content="Official website of LibreOffice Conf Asia &amp; UbuCon Asia 7-8 October 2023 Surakarta, Indonesia.">
@@ -21,7 +21,6 @@
     <link rel="manifest" href="../manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,800&amp;display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="../assets/css/styles.min.css">
 <script class="page-counter" src="https://cdn.counter.dev/script.js" data-id="2a5b0454-daf3-49f7-9587-e026f3747a11" data-utcoffset="7"></script>
 </head>
@@ -34,7 +33,7 @@
                 <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/about" aria-label="about">About</a></li>
                 <li class="nav-item d-none d-lg-block">
                     <div class="nav-item dropdown nav-link"><a class="dropdown-toggle text-decoration-none text-black-50" aria-expanded="false" data-bs-toggle="dropdown" href="#" aria-label="agenda">Info&nbsp;</a>
-                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item text-end" href="/news">News</a><a class="dropdown-item text-end" href="/sponsorship">Sponsorship</a><a class="dropdown-item text-end" href="/donation">Donation</a><a class="dropdown-item text-end" href="/post/?title=hotel-recomendations">Lodging</a><a class="dropdown-item text-end" href="/post/?title=how-to-reach-louca23">Transportation</a></div>
+                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item text-end" href="/news">News</a><a class="dropdown-item text-end" href="/sponsorship">Sponsorship</a><a class="dropdown-item text-end" href="/sponsorship">Donation</a><a class="dropdown-item text-end" href="/post/?title=hotel-recomendations">Lodging</a><a class="dropdown-item text-end" href="/post/?title=how-to-reach-louca23">Transportation</a></div>
                     </div>
                 </li>
                 <li class="nav-item d-none d-lg-block">
@@ -65,16 +64,51 @@
         </div>
     </nav>
     <section></section>
-    <section class="pt-5" style="background: linear-gradient(166deg, #fffae2, white 34%);">
+    <section style="background: linear-gradient(166deg, #fffae2, white 34%);padding-top: 85px;">
         <div class="container-fluid mt-5 py-4 text-white text-center" style="background: var(--bs-gray-800);">
-            <h1 class="mb-0" style="font-size: 3em;"><strong>&lt;/Archives&gt;</strong></h1>
+            <h1 class="mb-0" style="font-size: 3em;"><strong>&lt;/Donation Report&gt;</strong></h1>
         </div>
-        <div class="container pt-5 my-3 p-0 p-lg-5 bg-white" style="min-height: 100vh;">
-            <div class="mt-5">
-                <div class="row mb-5" id="news-wrapper">
-                    <div class="col text-center"><span class="spinner-border text-warning" role="status"></span>
-                        <h3 class="text-center">Loading data ...</h3>
+        <div class="container pt-5 my-3 p-3 p-lg-5 bg-white" style="min-height: 100vh;">
+            <div class="mb-3">
+                <h3 class="ubuntu-dark">Donation Report</h3>
+                <div class="div-accent" style="height: 15px;width: 109px;"></div>
+                <p class="my-4">Open donations are a source of funding received through activity donors with a minimum amount of IDR 200,000 up to unlimited. Donors at the LOUCA23 event are not limited to personal, but also from communities, foundations, companies, and other institutions.<br><br>Donations can be given in cash or non-cash, such as financing certain sectors such as consumption, servers, souvenirs, and so on. If you are interested in participating in making LOUCA23 successful by donating, don't hesitate to contact us via the LOUCA23 Official WhatsApp.<br><br>Every donation received will be recorded on this page as a form of appreciation, gratitude, and accountability to donors. Thank you to those of you who have donated to LOUCA23.</p>
+                <div class="row">
+                    <div class="col"><span class="text-center d-block">Cash Received</span>
+                        <h3 class="text-center total-amount">-</h3>
+                        <p class="text-center total-donors"></p>
                     </div>
+                    <div class="col text-center align-self-center"><button class="btn main-button rounded-0" type="button" data-bs-target="#donation" data-bs-toggle="modal">Send My Donation</button></div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Organization / Instance</th>
+                                <th>Type</th>
+                                <th>Amount</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="donation-list">
+                            <tr>
+                                <td class="py-3"></td>
+                                <td class="py-3 w-25"></td>
+                                <td class="py-3">
+                                    <div class="agenda-day1">
+                                        <div class="col text-center"><span class="spinner-border text-warning" role="status"></span>
+                                            <h3 class="text-center">Loading data ...</h3>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="py-3"></td>
+                                <td class="py-3"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -166,11 +200,44 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="update-soon">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title fw-semibold">Ups :"(</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ths destination link currently unavailable, we'll update soon.</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="donation">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title fw-semibold">Send Donation to LOUCA23</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Please send your donation to the following account;</p>
+                    <p class="fs-4 m-0 mb-2">Bank Name: BNI</p>
+                    <p class="font-monospace fs-4 m-0 mb-2">1553797756</p>
+                    <p class="fs-4 fw-semibold m-0 mb-2">a/n Suporter Openinfra Indonesia Yayasan</p>
+                    <p class="my-4">Please send proof to confirm whether your donation was sent correctly via one of the contacts below;</p>
+                    <ul>
+                        <li class="mb-3"><a href="https://wa.me/6281229107693/?text=Halo%20kak%2C%20saya%20ingin%20mengonfirmasi%20donasi%20untuk%20LOUCA23%20...%0ASaya%20...%20dari%20...." target="_blank">LOUCA23 WhatsApp</a></li>
+                        <li class="mb-3"><a href="mailto:humas@louca.id" target="_blank">humas@louca.id</a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="../assets/js/script.min.js"></script>
-    <script src="../assets/js/scripts.min.js"></script>
+    <script src="../assets/js/donations.min.js"></script>
 </body>
 
 </html>
