@@ -35,6 +35,8 @@ Please keep in mind that our LOUCA23 seats is limited, quickly secure your seat 
 
 <a class="btn main-button my-2 rounded-0" role="button" href="https://tix.louca.id" target="_blank">Get your tickets early!</a>
 
-For all foreigners, please feel free to contact us by email at [humas@louca.id](mailto:humas@louca.id) for registration, we will help you.  
+<div class="alert alert-danger">
+For all foreigners, please feel free to contact us by email at <a class="fw-semibold" href="mailto:humas@louca.id">humas@louca.id</a> for registration, we will help you.  
+</div>
 
 We look forward to seeing you in Surakarta, Indonesia!
