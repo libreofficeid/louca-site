@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>LOUCA23 - About</title>
+    <title>LOUCA23 - Participants</title>
     <meta name="theme-color" content="#f0fff0">
     <meta name="twitter:description" content="Official website of LibreOffice Conf Asia &amp; UbuCon Asia 7-8 October 2023 Surakarta, Indonesia.">
     <meta name="description" content="Official website of LibreOffice Conf Asia &amp; UbuCon Asia 7-8 October 2023 Surakarta, Indonesia.">
@@ -65,52 +65,49 @@
     </nav>
     <section></section>
     <section style="background: linear-gradient(166deg, #fffae2, white 34%);padding-top: 85px;">
+        <div class="container-fluid mt-5 py-4 text-white text-center" style="background: var(--bs-gray-800);">
+            <h1 class="mb-0" style="font-size: 3em;"><strong>&lt;/Participants&gt;</strong></h1>
+        </div>
         <div class="container pt-5 my-3 p-3 p-lg-5 bg-white" style="min-height: 100vh;">
-            <div>
-                <h1 class="ubuntu-dark">About LOUCA</h1>
-                <div class="div-accent"></div>
-                <p class="my-4">LibreOffice Conf. Asia x UbuCon Asia 2023 (LOUCA23) is an event organized by the LibreOffice ID Community and Ubuntu ID to bring together Linux and Open Source Software (OSS) activists, contributors, users, communities, and businesses in the Asian region. There are several types of activities that will be held at LOUCA23, including; (a) workshop activities, (b) keynotes, (c) parallel classes, (d) panel discussions and other activities related to LibreOffice and Ubuntu. Discussion topics on OSS technology developments that include Linux and hardware, graphics and multimedia, community and contributions, system administration, IaaS and PaaS clouds, Internet of Things (IoT), desktop environment, office and productivity, security, education, science and engineering, as well as software development, will also color this activity. LOUCA23 will be held in Indonesia to be precise at the Sebelas Maret University (UNS) Surakarta City, Central Java. This event will target as many as 500 participants from students, academics, professionals, government agencies, NGOs, communities and open source activists and companies.</p>
-            </div>
-            <div>
-                <h3 class="ubuntu-dark">Logo &amp; Mascot</h3>
+            <div class="mb-3">
+                <h3 class="ubuntu-dark">Get Your LOUCA23 Posters</h3>
                 <div class="div-accent" style="height: 15px;width: 109px;"></div>
-                <div class="row justify-content-center">
-                    <div class="col-6 col-xl-3"><img class="img-fluid" src="../assets/img/LibreOffice-Conf_logo.svg"></div>
-                    <div class="col-6 col-xl-3"><img class="img-fluid" src="../assets/img/UbuCon_Logo.svg"></div>
+                <div class="alert alert-success border-0" role="alert"><span><strong>[INFO]</strong> This page is by default intended for local participants from Indonesia..</span></div>
+                <p class="my-4">Untuk dapat mengambil poster unik, pastikan kamu telah terverifikasi sebagai peserta. Silakan menuju halaman <a class="fw-semibold" href="https://s.id/louca-regis">https://s.id/louca-regis</a>&nbsp;untuk pendaftaran. Poster ini dapat kamu bagikan ke media sosial sebagai bentuk dukungan penyelenggaraan LOUCA23. Apabila kamu sudah mendaftar namun namamu tidak terdapat di-<em>list</em> halaman ini, kemungkinan kamu belum mengirimkan bukti pembayaran. Silakan cek surel untuk menemukan tautan verifikasi pembayaran. Jangan sungkan untuk menghubungi panitia bila Anda rasa terdapat kesalahan dalam status kepesertaaanmu.</p>
+            </div>
+            <div class="mb-3 p-5">
+                <div class="mb-5">
+                    <div class="input-group input-group-lg rounded-0"><input class="form-control border rounded-0 text-dark search-participant" type="text" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="left" placeholder="Cari Nama Anda ..." title="Sensitive case"><button class="btn btn-primary rounded-0" type="button" onclick="searchParticipant()">Temukan</button></div>
                 </div>
-                <p class="my-4">LOUCA23 organizer privided the official logo that we will use to represent LOUCA23 activities in each activity publication media. The logo is released under a CC BY-SA 4.0 license so you can use it for purposes of supporting LOUCA23 activities.&nbsp;Please refer to the&nbsp;<a href="https://github.com/libreofficeid/LOUCA23-Artworks">Github repository</a>&nbsp; to download the source files.</p>
-                <div class="row">
-                    <div class="col-sm-5 col-lg-4 col-xl-3 col-xxl-3"><img class="img-fluid" src="../assets/img/kebobule_LOUCA_mascot-fs8.webp"></div>
-                    <div class="col">
-                        <p class="my-4">Besides the logo, we have also prepared a mascot that will accompany you during LOUCA23 activities. Say hello, 'Kebo Bule'! Kebo Bule is a royal animal of the city of Surakarta/Solo Raya which is a buffalo with high historical value.</p>
-                        <p class="my-4">We are preparing various poses and variants of Kebo Bule to be your companion in welcoming the LOUCA23 activities. Don't forget to say hi to him the next time you see him at LOUCA23!</p>
-                    </div>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th class="py-3">Nama</th>
+                                <th class="py-3">Kategori Tiket</th>
+                                <th class="py-3">View</th>
+                            </tr>
+                        </thead>
+                        <tbody class="participant-list">
+                            <tr>
+                                <td class="py-3"></td>
+                                <td class="py-3">
+                                    <div class="agenda-day1">
+                                        <div class="col text-center"><span class="spinner-border text-warning" role="status"></span>
+                                            <h3 class="text-center">Loading data ...</h3>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="py-3"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-            </div>
-            <div>
-                <h3 class="ubuntu-dark">Venue Details</h3>
-                <div class="div-accent" style="height: 15px;width: 109px;"></div>
-                <p class="my-4"><iframe allowfullscreen="" frameborder="0" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCP4xCZYpZ2CJmRIUST0RPoEChj2oimZ9c&amp;q=Gedung+F+FKIP+UNS+%2F+Dekanat+FKIP+UNS&amp;zoom=15" class="mb-4" width="100%" height="400"></iframe>This year, Indonesia has the opportunity to host the LibreOffice Conf. Asia and UbuCon Asia. LOUCA23 is planned to be held at the FKIP Hall (Building F) UNS, Surakarta, Indonesia. In collaboration with Universitas Sebelas Maret Surakarta (UNS) as the venue provider.<br><br>Universitas Sebelas Maret (UNS) is a state university established on March 11, 1976 in the city of Surakarta. Sebelas Maret University has a vision, mission, and goals that are used as guidelines in organizing educational activities, namely "To become a center for the development of science, technology, and art that excels at the international level based on the noble values of national culture."<br><br>The implementation of LOUCA23 activities is in collaboration with the Informatics and Computer Engineering Education Study Program (PTIK) and the Informatics Engineering Education Student Association (Mikroptik) UNS. <br><br><br>The following are photos of the LOUCA23 (LibreOffice Conf. Asia x UbuCon Asia) 2023 event location which will be held at Universitas Sebelas Maret.</p>
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-lg-7"><img class="img-fluid mb-2" src="../assets/img/about/LOUCA_UNS_GATE.webp" style="min-height: 200px;width: auto;"></div>
-                    <div class="col"><img class="img-fluid mb-2" src="../assets/img/about/LOUCA_FKIP_Building.webp" style="min-height: 200px;width: auto;"><img class="img-fluid mb-2" src="../assets/img/about/LOUCA_FKIP_MainHall.webp" style="min-height: 200px;width: auto;"></div>
+                <div class="d-flex justify-content-center">
+                    <nav class="participant-paginations">
+                        <ul class="pagination"></ul>
+                    </nav>
                 </div>
-            </div>
-            <div>
-                <h3 class="ubuntu-dark">Organizer And Contributor</h3>
-                <div class="div-accent" style="height: 15px;width: 109px;"></div>
-                <p class="my-4">LOUCA23 is organized collaboratively by the LibreOffice Indonesia Community, Ubuntu Community, Paguyuban Linux Solo, and in collaboration with Universitas Sebelas Maret (UNS) Surakarta as the venue provider.</p>
-                <p class="my-4">We are opening opportunities to collaborate with all open source communities and business entities, both as community partners, media partners, and as sponsors. Details about sponsorship offers for the LOUCA23 event can be seen on the&nbsp;<a href="/sponsorship">Sponsorship page</a>.</p>
-            </div>
-            <div id="CoC">
-                <h3 class="ubuntu-dark">Code of Conduct</h3>
-                <div class="div-accent" style="height: 15px;width: 109px;"></div>
-                <p class="mt-4 mb-0">To provide safe environment for every participants, We’ve adapted UbuCon Asia Code of Conduct and Ubuntu Code of Conduct. Both applies to anyone participating LOUCA23 event. Make sure to read both Code of Conduct carefully before participating. Violation of the Code of Conduct may result in sanctions or expelling from the event if necessary.<br><br></p>
-                <ul>
-                    <li><a href="https://github.com/ubucon-asia/CodeOfConduct/blob/main/UbuconAsiaCodeOfConduct.md" aria-label="UbuCon Asia Code of Conduct">UbuCon Asia Code of Conduct</a></li>
-                    <li><a href="https://ubuntu.com/community/code-of-conduct" aria-label="Ubuntu Code of Conduct 2.0">Ubuntu Code of Conduct 2.0</a></li>
-                </ul>
-                <p class="mt-4 mb-0">Details regarding the LOUCA23 Code of Conduct will be updated periodically according to the existing situation and conditions.</p>
             </div>
         </div>
     </section>
@@ -201,9 +198,44 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="update-soon">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title fw-semibold">Ups :"(</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ths destination link currently unavailable, we'll update soon.</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="donation">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title fw-semibold">Send Donation to LOUCA23</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Please send your donation to the following account;</p>
+                    <p class="fs-4 m-0 mb-2">Bank Name: BNI</p>
+                    <p class="font-monospace fs-4 m-0 mb-2">1553797756</p>
+                    <p class="fs-4 fw-semibold m-0 mb-2">a/n Suporter Openinfra Indonesia Yayasan</p>
+                    <p class="my-4">Please send proof to confirm whether your donation was sent correctly via one of the contacts below;</p>
+                    <ul>
+                        <li class="mb-3"><a href="https://wa.me/6281229107693/?text=Halo%20kak%2C%20saya%20ingin%20mengonfirmasi%20donasi%20untuk%20LOUCA23%20...%0ASaya%20...%20dari%20...." target="_blank">LOUCA23 WhatsApp</a></li>
+                        <li class="mb-3"><a href="mailto:humas@louca.id" target="_blank">humas@louca.id</a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="../assets/js/script.min.js"></script>
+    <script src="../assets/js/participants.min.js"></script>
 </body>
 
 </html>

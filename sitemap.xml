@@ -13,6 +13,12 @@
         <loc>/news/</loc>
     </url>
     <url>
+        <loc>/participants/ticket/</loc>
+    </url>
+    <url>
+        <loc>/participants/</loc>
+    </url>
+    <url>
         <loc>/post/</loc>
     </url>
     <url>
