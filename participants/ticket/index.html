@@ -56,7 +56,8 @@
                         <li><a href="/sponsorship" aria-label="sponsorhip">Sponsorship</a></li>
                         <li><a href="/faq" aria-label="sponsorhip">FAQ</a></li>
                         <li><a href="#contact" aria-label="contact">Contact</a></li>
-                        <li><a class="py-2 px-3" style="background: var(--libre-main);color: var(--libre-light);" aria-label="ticket" href="https://louca.id/post/?title=louca-registration-is-open">Get Ticket</a></li>
+                        <li class="mb-4"><a class="py-2 px-2" style="background: var(--libre-main);color: var(--libre-light);" aria-label="ticket" href="https://louca.id/post/?title=louca-registration-is-open">Get Ticket</a></li>
+                        <li class="mb-4"><a class="py-2 px-2" style="background: var(--ubuntu-main);color: var(--ubuntu-light);" aria-label="ticket" href="/participants">Check My Status</a></li>
                         <li onclick="closeMenu()"><img class="close-menu" src="../../assets/img/icons/close.svg" alt="close" width="24px" height="24px"></li>
                     </ul>
                 </div>
@@ -69,18 +70,18 @@
             <h1 class="mb-0" style="font-size: 3em;"><strong>&lt;/See You in Surakarta!&gt;</strong></h1>
         </div>
         <div class="container pt-5 my-3 p-3 p-lg-5 bg-white" style="min-height: 100vh;">
-            <div class="text-center overflow-auto mb-4 d-flex justify-content-center" id="htmltoimage-1" style="height: auto;">
-                <div id="poster-image" class="d-flex align-items-center justify-content-center">
+            <div class="text-center mb-4 overflow-auto" id="htmltoimage-1" style="height: auto;">
+                <div id="poster-image" class="d-flex align-items-center justify-content-center" style="padding-top: 15px;">
                     <div class="position-relative">
                         <div id="main-img">
                             <div style="height: 8px;"></div>
-                            <div id="louca-logo" class="d-flex"><img class="img-fluid" src="../../assets/img/LibreOffice-Conf_logo.svg" style="margin-bottom: 2px;margin-top: -8px;"><img class="img-fluid" src="../../assets/img/UbuCon_Logo.svg"></div>
+                            <div id="louca-logo" class="d-flex"><img class="img-fluid" src="../../assets/img/louca_logo_white.svg" style="padding: 4px;margin-left: 9px;margin-bottom: 2px;"></div>
                             <div class="ticket-text text-start text-white" style="min-height: 136px;"><span id="ticket-category"></span>
                                 <h1 class="ticket-holder-name my-3" style="font-size: 40px;"></h1>
                             </div>
                             <div class="ticket-footer text-white d-flex align-items-center justify-content-between text-white">
                                 <p class="fw-semibold text-start">LibreOffice Conf. Asia<br>&amp; UbuCon Asia 2023</p>
-                                <p class="text-end">FKIP UNS Surakarta Indonesia<br>October, 7 &amp; 8 2023</p>
+                                <p class="text-end"><span class="fw-semibold">FKIP UNS Surakarta Indonesia</span><br>October, 7 &amp; 8 2023</p>
                             </div>
                         </div>
                         <div class="ticket-sidecontent overflow-hidden" style="background: url(&quot;https://source.unsplash.com/random/700x700/?wild-animals&quot;);margin-top: -501px;margin-left: 669px;">
@@ -95,7 +96,7 @@
                                 </div>
                             </div>
                         </div>
-                        <p class="font-monospace text-start vertical-text mb-1" id="ticket-date">.</p>
+                        <p class="font-monospace text-end text-start vertical-text mb-1" id="ticket-date">.</p>
                     </div>
                 </div>
             </div><button class="btn btn-lg rounded-0 w-100 py-3 text-white" id="download-btn" type="button" style="background: #085834;" onclick="createID()">Download</button>
